@@ -4,10 +4,10 @@ rem *************************************************
 
 ping localhost -n 30
 
-start "1" "C:\Program Files (x86)\FxPro - Terminal1\terminal.exe" /portable
-start "2" "C:\Program Files (x86)\FxPro - Terminal2\terminal.exe" /portable
-start "3" "C:\Program Files (x86)\FxPro - Terminal3\terminal.exe" /portable
-start "4" "C:\Program Files (x86)\FxPro - Terminal4\terminal.exe" /portable
-start "5" "C:\Program Files (x86)\FxPro - Terminal5\terminal.exe" /portable
+rem Starting terminals with parameters using *.ini files:
+start "1" "C:\Program Files (x86)\FxPro - Terminal1\terminal.exe" /portable "C:\Users\fxtrams\Documents\000_TradingRepo\AutoLaunchMT4\prod_T1.ini"
+start "2" "C:\Program Files (x86)\FxPro - Terminal2\terminal.exe" /portable "C:\Users\fxtrams\Documents\000_TradingRepo\AutoLaunchMT4\prod_T2.ini"
+start "3" "C:\Program Files (x86)\FxPro - Terminal3\terminal.exe" /portable "C:\Users\fxtrams\Documents\000_TradingRepo\AutoLaunchMT4\prod_T3.ini"
+start "4" "C:\Program Files (x86)\FxPro - Terminal4\terminal.exe" /portable "C:\Users\fxtrams\Documents\000_TradingRepo\AutoLaunchMT4\prod_T4.ini"
 
 exit
