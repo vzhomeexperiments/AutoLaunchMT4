@@ -1,7 +1,7 @@
 # AutoLaunchMT4
 
 Tool to make sure that MT4 starts after PC reboot
-Source: [ForexBoat.com](www.forexboat.com/vpssetup/)
+Source: [https://www.forexboat.com/vpssetup/](https://www.forexboat.com/vpssetup/)
 
 # Content:
 
