@@ -48,6 +48,10 @@ Start > All Programs, then right-click on Startup and selecting "Open".
 Dedicated *.ini* files could be generated using `R package` *lazytrade*
 Check this function in R: `?lazytrade::write_ini_file`
 
+# Startup MT4 along with the robot
+
+Ability to launch one or multiple robots at terminal startup
+
 # Automatically restart windows
 
 Use task in Windows Task Scheduler * Windows_Autorestart.xml
